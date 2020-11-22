@@ -1,0 +1,12 @@
+module.exports={
+    configureWebpack:{
+        resolve:{
+            extensions:[".js",".vue",".jpg",".png",".mp4"],
+            alias:{
+                "assets":"@/assets",
+                "components":"@/components",
+                "views":"@/views"
+            }
+        }
+    }
+}
